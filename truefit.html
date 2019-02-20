@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stu McGibbon</title>
+  <meta charset="UTF-8">
+  <!-- styles -->
+  <link rel="stylesheet" type="text/css" href="truefit.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <!-- JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="main.js" type="text/javascript"></script>
+
+  <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- JS LIBRARY: MATERIAL DESIGN FOR BOOTSTRAP -->
+
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.14/css/mdb.min.css" rel="stylesheet">
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.14/js/mdb.min.js"></script>
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- JS LIBRARY: SCROLL REVEAL (LAZYLOAD EFFECT) -->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: true });
+    </script>
+
+</head>
+
+<!-- Offset scroll position so sticky nav doesn't interfere with scroll effects -->
+<body data-offset="100">
+
+  <!-- MAIN NAV BAR OPEN -->
+  <nav class = "navbar navbar-fixed-top stroke">
+    <section class = "container-fluid">
+      <a href="index.html"><img src="assets/logo.png" id="logo"></a>
+
+      <button id="menu-button" class="navbar-toggle">
+        <span class = "icon-bar"></span>
+        <span class = "icon-bar"></span>
+        <span class = "icon-bar"></span>
+      </button>
+
+      <ul class="navbar-menu">
+        <li class="navbar-menu-item collapse"><a id="projects-link" class="link-text" href="index.html#projects">Projects</a></li>
+        <li class="navbar-menu-item collapse"><a id="writing-link" class="link-text" href="index.html#writing">Writing</a></li>
+        <li class="navbar-menu-item collapse"><a id="aboutme-link" class="link-text" href="index.html#about-me">About Me</a></li>
+        <li class="navbar-menu-item collapse"><a id="contact-link" class="link-text" href="index.html#contact">Contact</a></li>
+        <!-- FIX LINK TO RESUME FROM LOCAL -->
+        <li class="navbar-menu-item collapse"><a class="link-text" target="_blank" href="assets/résumé.pdf"download="McGibbon_Resume">Resume</a></li>
+      </ul>
+
+    </section>
+  </nav>
+  <!-- MAIN NAV BAR CLOSE -->
+
+  <!-- DROPDOWN NAV BAR OPEN -->
+  <div class="dropnav" id="dropnav">
+    <a id="projects-link" class="link-text" href="#projects">Projects</a>
+    <hr />
+    <a id="writing-link" class="link-text" href="#writing">Writing</a>
+    <hr />
+    <a id="aboutme-link" class="link-text" href="#about-me">About Me</a>
+    <hr />
+    <a id="contact-link" class="link-text" href="#contact">Contact</a>
+    <hr />
+    <a class="link-text" target="_blank" href="assets/résumé.pdf"download="McGibbon_Resume">Resume</a>
+  </div>
+
+
+<!-- SIDE NAV START -->
+
+<!--
+
+  <div class="sidenav" id="sidenav">
+    <a id="intro-link" class="link-text" href="#">1.  Intro </a>
+    <hr />
+    <a id="research-link" class="link-text" href="#">2.  Research</a>
+    <hr />
+    <a id="define-link" class="link-text" href="#">3.  Define</a>
+    <hr />
+    <a id="ideation-link" class="link-text" href="#">4.  Ideation</a>
+    <hr />
+    <a id="prototype-link" class="link-text" href="#">5.  Prototype</a>
+  </div>
+
+-->
+<!-- COVER -->
+
+  <div data-sr id="section1">
+  </div>
+  <section class="hero-section" id="cover-tutoroo">
+
+  </section>
+  </div>
+  <script>
+    ScrollReveal().reveal('#section1');
+  </script>
+
+  <br>
+
+  <!-- CASE STUDY CONTENT START -->
+
+  <!-- <div id="case-study" class=" col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-lg-offset-2 col-lg-8"> -->
+    <a name="intro" class="anchor"></a>
+
+    <section class="project-summary container">
+      <div class="project-summary-outline row">
+        <div class="col-sm-3">
+          <p class="outline-header">Timeline</p>
+          <p id="timeline">October - December 2018 </p>
+        </div>
+        <div class="col-sm-3">
+          <p class="outline-header">Team</p>
+          <p>Alissa Chan</p>
+          <p>Nicole Pinto</p>
+          <p>Rosie Sun</p>
+          <p>Se One Park</p>
+          <p>Stuart McGibbon (me)</p>
+        </div>
+        <div class="col-sm-3">
+          <p class="outline-header">My Role</p>
+          <p>UX Designer</p>
+        </div>
+        <div class="col-sm-3">
+          <p class="outline-header">Tags</p>
+          <p>Service Design,</p>
+          <p>UX Research,
+          <p>UI Design</p>
+        </div>
+      </div>
+
+      <div class="section-content row">
+        <div class="col-sm-2">
+          <p class="subheader">CHALLENGE</p>
+        </div>
+        <div class="col-sm-9">
+          <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+
+      <div class="section-content row">
+        <div class="col-sm-2">
+          <p class="subheader">SOLUTION</p>
+        </div>
+        <div class="col-sm-9">
+          <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- USER RESEARCH OPEN -->
+
+    <section class="container" id="user-research">
+      <h2 class="section-header">User Research</h2>
+      <hr />
+      <p class="centered">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      </p>
+
+      <div class="section-content row">
+        <div class="col-sm-2">
+          <p class="subheader">METHODS</p>
+        </div>
+      </div>
+
+<!--
+      <div class="section-content row">
+        <div class="col-xs-3">
+          <div class="circle"><img id="" src=""></div>
+          <p class="caption">Contextual Inquiry</p>
+        </div>
+        <div class="col-xs-3">
+          <div class="circle"><img id="" src=""></div>
+          <p class="caption">Stakeholder Interviews</p>
+        </div>
+        <div class="col-xs-3">
+          <div class="circle"><img id="" src=""></div>
+          <p class="caption">Secondary Research</p>
+        </div>
+        <div class="card col-xs-3">
+          <div class="circle"><img id="" src=""></div>
+          <p class="caption">Survey</p>
+        </div>
+      </div>
+-->
+      <div class="section-content d-flex row justify-content-center">
+        <div class="col-sm-2 bd-highlight circle-container">
+          <div class="circle-lg"><img id="" src=""></div>
+          <p class="caption">Contextual Inquiry</p>
+        </div>
+        <div class="col-sm-2 bd-highlight circle-container">
+          <div class="circle-lg"><img id="" src=""></div>
+          <p class="caption">Stakeholder Interviews</p>
+        </div>
+        <div class="col-sm-2 bd-highlight circle-container">
+          <div class="circle-lg"><img id="" src=""></div>
+          <p class="caption">Secondary Research</p>
+        </div>
+        <div class="col-sm-2 bd-highlight circle-container">
+          <div class="circle-lg"><img id="" src=""></div>
+          <p class="caption">Survey</p>
+        </div>
+      </div>
+
+      <div class="section-content row">
+        <div class="col-sm-2">
+          <p class="subheader">INSIGHTS</p>
+        </div>
+      </div>
+
+      <div class="section-content d-flex row justify-content-center">
+        <div class="col-sm-3 bd-highlight insight-card">
+          <div class="circle-sm"><img id="" src=""></div>
+          <p class="card-title">Insight #1</p>
+          <p class="card-content caption">Shopping for Jeans as a plus-sized individual…Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+        </div>
+        <div class="col-sm-3 bd-highlight insight-card">
+          <div class="circle-sm"><img id="" src=""></div>
+          <p class="card-title">Insight #2</p>
+          <p class="card-content caption">Shopping for Jeans as a plus-sized individual…Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+        </div>
+        <div class="col-sm-3 bd-highlight insight-card">
+          <div class="circle-sm"><img id="" src=""></div>
+          <p class="card-title">Insight #3</p>
+          <p class="card-content caption">Shopping for Jeans as a plus-sized individual…Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+        </div>
+      </div>
+
+
+    </section>
+
+    <!-- USER RESEARCH CLOSE -->
+
+    <hr />
+
+    <!-- USER PERSONA OPEN -->
+
+    <section class="container" id="user-persona">
+      <h2 class="section-header">User Persona</h2>
+      <hr />
+
+      <div>
+        <div class="col-sm-2">
+          <img id="persona-pic" src="assets/aeo-persona.png">
+          <p class="card-title">Maria</p>
+          <p class="card-content caption">AEO Shopper</p>
+
+        </div>
+        <div id="container-right">
+          <div class="col-sm-8" id="bio">
+            <p>Bio:</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+          </div>
+          <div class="row">
+            <div id="goals">
+              <p>Goals:</p>
+              <ul>
+                <li>lorem ipsum</li>
+                <li>lorem ipsum</li>
+                <li>lorem ipsum</li>
+                <li>lorem ipsum</li>
+              </ul>
+            </div>
+            <div id="frustrations">
+              <p>Frustrations:</p>
+              <ul>
+                <li>lorem ipsum</li>
+                <li>lorem ipsum</li>
+                <li>lorem ipsum</li>
+                <li>lorem ipsum</li>
+              </ul>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <section class="container" id="service-blueprint">
+      <h2 class="section-header">Service Blueprint</h2>
+      <hr />
+
+      <img id="service-blueprint-img" src="assets/service-blueprint.png"/>
+      <p class="caption centered">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+    </section>
+
+    <hr />
+
+    <section class="container" id="validating-user-needs">
+      <h2 class="section-header">Validating User Needs</h2>
+      <hr />
+      <p class="centered">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      </p>
+      <div class="col-sm-2">
+        <p class="subheader">STORYBOARDS</p>
+      </div>
+      <img id="storyboard-a" src="assets/storyboard-a.png"/>
+      <p class="caption centered">Scenario A: In-store Tablet Display & Checkout</p>
+
+      <div class="col-sm-3">
+        <p class="subheader">SERVICE ENACTMENT</p>
+      </div>
+
+      <div class=col-sm-8>
+        <p class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+      </div>
+
+      <div>
+        <img id="service-enactment" src="assets/service-enactment.png"/>
+      </div>
+
+      <div class="col-sm-3">
+        <p class="caption">Participant enters studio fitting room, “tries on” any size jean in select  styles.</p>
+      </div>
+      <div class="col-sm-3">
+        <p class="caption">Participant uses in-room tablet to scan QR code, customize order, and complete check out.</p>
+      </div>
+      <div class="col-sm-3">
+        <p class="caption">Participant discusses their experience in a brief exit interview with the team.</p>
+      </div>
+
+      <p class="col-sm-8 content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      </p>
+
+    </section>
+
+    <section>
+      <div class="centered photo-container">
+        <div class="col-sm-3">
+          <img id="" src="assets/service-enactment-1.png"/>
+        </div>
+        <div class="col-sm-3">
+          <img id="" src="assets/service-enactment-2.png"/>
+        </div>
+        <div class="col-sm-3">
+          <img id="" src="assets/service-enactment-3.png"/>
+        </div>
+      </div>
+      <p class="centered caption">Evaluating the User Experience through Experience Prototyping</p>
+    </section>
+
+    <hr/>
+
+    <section class="container" id="service-innovation">
+      <h2 class="section-header">Service Innovation</h2>
+      <hr />
+
+
+      <div class="col-sm-8">
+        <p class="subheader">TRUE FIT STUDIO EXPERIENCE</p>
+        <p class="content">
+          Shopping for Jeans as a plus-sized individual…Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <p class="content">
+          Shopping for Jeans as a plus-sized individual…Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+
+      <div class="col-sm-4">
+        <img id="studio-mockup" src="assets/studio-mockup.png"/>
+        <p class="caption">Fitting Room Mockup</p>
+      </div>
+
+    </section>
+
+    <section class="container">
+      <div class="col-md-8">
+        <img id="" src="assets/truefit-screen.png"/>
+      </div>
+      <div class="col-md-4">
+        <img id="" src="assets/truefit-tag.png"/>
+        <p class="content"><strong>(TOP)</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <p class="content"><strong>(LEFT)</strong> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      </div>
+
+    </section>
+
+    <section class="container">
+      <p class="subheader">CUSTOMER JOURNEY MAP</p>
+      <img id="" src="assets/customer-journey-map.png"/>
+    </section>
+
+    <hr/>
+
+    <section class="container" id="service-innovation">
+      <h2 class="section-header">Co-Creating Value</h2>
+      <hr />
+      <div class="col-md-8">
+        <p class="subheader">TRUE FIT STUDIO EXPERIENCE</p>
+        <p class="content">
+          Shopping for Jeans as a plus-sized individual…Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <p class="content">
+          Shopping for Jeans as a plus-sized individual…Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <div class="col-">
+
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- FOOTER OPEN -->
+
+  <div class="footer">
+    <p class="footer-text">
+      © 2019 Stu McGibbon
+    </p>
+    <container class="footer-buttons">
+      <a href="" target="_blank"><button type="button" class="btn btn-circle btn-sm"><img id="email-logo" src="assets/mail.png"></button></a>
+      <a href="https://www.linkedin.com/in/stu-mcgibbon/" target="_blank"><button type="button" class="btn btn-circle btn-sm"><img id="linkedin-logo" src="assets/linkedin.png"></button></a>
+      <a href="https://medium.com/@stuartmcgibbon" target="_blank"><button type="button" class="btn btn-circle btn-sm"><img id="medium-logo" src="assets/medium.png"></button></a>
+    </container>
+  </div>
+
+  <!-- FOOTER CLOSE -->
+</body>
+
+</html>
