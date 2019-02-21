@@ -32,6 +32,11 @@ $(document).ready(function() {
      scrollToAnchor('cover');
   });
 
+  $("#to-top").click(function() {
+     scrollToAnchor('intro');
+  });
+
+
   // Click listeners for "scrollToAnchor" function CLOSE
 
   // "scrollToAnchor" Function courtesy of: http://jsfiddle.net/BjpWB/4/

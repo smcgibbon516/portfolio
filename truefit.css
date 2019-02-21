@@ -1,4 +1,9 @@
 /* MAIN NAV STYLES OPEN */
+
+@font-face { font-family: Avenir-Next; src: url('AvenirNextLTPro-Regular.otf'); }
+@font-face { font-family: Avenir-Next-Bold; src: url('AvenirNextLTPro-Bold.otf'); }
+
+
 .navbar {
   min-height: 60px;
   margin-bottom: 20px;
@@ -27,7 +32,7 @@
 
 .navbar-menu-item {
   margin: auto 15px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'AvenirNextLTPro', 'Lato', sans-serif;
   color: #515151;
   font-weight: bold;
 }
@@ -157,7 +162,7 @@ nav.stroke ul li a:hover:after {
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav */
 
 .sidenav {
-  font-family: 'Lato', sans-serif;
+  font-family: 'AvenirNextLTPro', 'Lato', sans-serif;
   height: 100%;
   width: 200px;
   position: fixed;
@@ -237,7 +242,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav */
 }
 
 .dropnav {
-  font-family: 'Lato', sans-serif;
+  font-family: 'AvenirNextLTPro', 'Lato', sans-serif;
   font-weight: bold;
   width: 100%;
   position: fixed;
@@ -324,6 +329,15 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav */
   min-height: 75%;
 }
 
+#cover-truefit {
+  background-image: url(assets/truefit-header.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 75%;
+}
+
 #hr-cover {
   margin-top: 0px;
 }
@@ -340,9 +354,13 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav */
 /* CASE STUDY STYLES OPEN */
 
 .project-summary {
-  font-family: 'Lato', sans-serif;
-  line-height: 80%;
+  font-family: 'AvenirNextLTPro', 'Lato', sans-serif;
+  line-height: 120%;
   margin-top: 20px;
+}
+
+.project-summary-outline {
+  margin-bottom: 50px;
 }
 
 .outline-header {
@@ -362,7 +380,8 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav */
 .section-content {
   font-size: 16px;
   line-height: 150%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'AvenirNextLTPro', 'Lato', sans-serif;
+  margin-bottom: 40px;
 }
 
 .temp {
@@ -412,6 +431,17 @@ button:hover, button:focus, input[type="button"]:focus button:active {
   bottom: 5px;
 }
 
+#lightbulb {
+  width: 25px;
+}
+
+#goals {
+  margin: 0 40px;
+}
+
+#frustrations {
+  margin: 0 40px;
+}
 
 /* Circle button styles courtesy of https://bootsnipp.com/snippets/featured/circle-button */
 .btn-circle.btn-sm {
@@ -426,11 +456,27 @@ button:hover, button:focus, input[type="button"]:focus button:active {
   border-color: white;
 }
 
+
+
 .circle-lg {
   width: 100px;
   height: 100px;
   line-height: 1.33;
-  border-radius: 50px;
+  border-radius: 100px;
+  background-color: #4CABFF;
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.circle-md {
+  width: 70px;
+  height: 70px;
+  line-height: 1.33;
+  border-radius: 100px;
   background-color: #4CABFF;
   border-style: solid;
   border-width: medium;
@@ -440,11 +486,17 @@ button:hover, button:focus, input[type="button"]:focus button:active {
 }
 
 .circle-sm {
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   line-height: 1.33;
   border-radius: 50px;
   background-color: #4CABFF;
+  padding: 12px;
+  padding-left: 15px;
+}
+
+#to-top {
+  color: #B8B8B8;
 }
 
 .btn-circle.btn-xl: active {
@@ -460,8 +512,9 @@ button:hover, button:focus, input[type="button"]:focus button:active {
 }
 
 .footer-text {
-  font-family: 'Lato', sans-serif;
+  font-family: 'AvenirNextLTPro', sans-serif;
   font-weight: 100;
+  font-size: 14px;
   color: white;
   font-weight: 100;
   line-height: 150%;
@@ -483,7 +536,7 @@ button:hover, button:focus, input[type="button"]:focus button:active {
 }
 
 .section-text {
-  font-family: 'Lato', sans-serif;
+  font-family: 'AvenirNextLTPro', sans-serif;
   line-height: 150%;
   max-width: 80%;
 }
@@ -500,8 +553,8 @@ button:hover, button:focus, input[type="button"]:focus button:active {
 
 hr {
   display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: 30px;
+  margin-bottom: 30px;
   /* margin-left: 10%;
   margin-right: 10%; */
   border-style: inset;
@@ -531,29 +584,39 @@ a.anchor {
 .subheader {
   font-size: 16px;
   line-height: 150%;
+  letter-spacing: 1px;
+  margin: 50px auto 20px;
 }
 
 .content {
-  font-family: 'Lato', sans-serif;
+  font-family: 'AvenirNextLTPro', sans-serif;
   color: black;
   font-size: 16px;
+  font-weight: 500;
+  margin: 20px inherit;
 }
 
 h2 {
+  font-family: 'AvenirNextLTPro', sans-serif;
+}
 
+p {
+  font-family: 'AvenirNextLTPro', sans-serif;
 }
 
 .section-header {
   text-align: center;
   font-weight: bold;
-  font-family: 'Lato', sans-serif;
   color: black;
+  font-size: 32px;
+  margin-top: 40px;
 }
 
 #user-research hr {
   display: block;
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  /* margin-bottom: 0.5em; */
+  margin-bottom: 30px;
   width: 100px;
   border-top: 3px solid #D8D8D8;
 }
@@ -561,7 +624,7 @@ h2 {
 #user-persona hr {
   display: block;
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 30px;
   width: 100px;
   border-top: 3px solid #D8D8D8;
 }
@@ -569,7 +632,7 @@ h2 {
 #service-blueprint hr {
   display: block;
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 30px;
   width: 130px;
   border-top: 3px solid #D8D8D8;
 }
@@ -577,7 +640,7 @@ h2 {
 #validating-user-needs hr {
   display: block;
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 30px;
   width: 130px;
   border-top: 3px solid #D8D8D8;
 }
@@ -585,7 +648,7 @@ h2 {
 #service-innovation hr {
   display: block;
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom:  30px;
   width: 130px;
   border-top: 3px solid #D8D8D8;
 }
@@ -594,6 +657,11 @@ h2 {
 #persona-pic {
   width: 200px;
   height: 200px;
+}
+
+#persona-pic-container {
+  margin: 0 40px;
+  text-align: center;
 }
 
 #service-blueprint-img {
@@ -612,18 +680,49 @@ h2 {
   margin-right: auto;
 }
 
+#cocreating-value {
+  width: 85%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#prototype {
+  height: 80%;
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#video-container {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 85vw;
+  height: 45vw
+
+}
+
 .centered {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Lato', sans-serif;
+  font-family: 'AvenirNextLTPro', sans-serif;
   color: black;
   font-size: 16px;
 }
 
 .photo-container {
-
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: inline-flex;
 }
+
+.photo {
+  margin: 30px 1% 10px;
+}
+
+
+
 
 .caption {
   color: #B8B8B8;
@@ -632,9 +731,14 @@ h2 {
   text-align: center;
 }
 
+
 .insight-card {
   max-width: 250px !important;
   margin: 0 25px;
+}
+
+.card-content {
+  text-align: left;
 }
 
 .card {
@@ -643,18 +747,25 @@ h2 {
   -webkit-box-shadow: none !important;
 }
 
-.card-content {
-  font-weight: !important;
-}
-
-.card-title {
-
+.bold {
+  font-weight: bold;
 }
 
 .flexbox {
   display: inline-flex;
   align-content: center;
 }
+
+#persona-lists {
+  float: left;
+}
+
+.img-caption {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
 
 .container-fluid {
   display: block !important;
@@ -664,4 +775,14 @@ h2 {
   margin: 0 5px;
   text-align: center;
   align-content: center;
+}
+
+.circle-img {
+
+}
+
+
+
+.persona-nametag {
+  font-size: 24px;
 }

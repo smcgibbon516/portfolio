@@ -460,6 +460,10 @@ button:hover, button:focus, input[type="button"]:focus button:active {
   margin-top: 30px;
 }
 
+.card-content {
+  min-height: 50px;
+}
+
 .card-image {
   height: 100%;
   width: 100%;
